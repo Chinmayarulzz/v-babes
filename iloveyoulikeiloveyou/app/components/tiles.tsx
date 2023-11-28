@@ -1,7 +1,10 @@
-export default function Tile(){
+export default function Tile() {
     return (
         <div className="tile-container">
-            <h1>Tile Area</h1>
+            <div>
+                <h2>Video Player</h2>
+                {/* <video controls src={"/Belief.mp4"} style={{ width: "400px", height: "400px" }}/> */}
+            </div>
         </div>
     );
 }
